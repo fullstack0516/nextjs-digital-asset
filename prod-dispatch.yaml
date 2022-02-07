@@ -1,0 +1,5 @@
+dispatch:
+  - url: "awake.bz/*"
+    service: nextjs
+  - url: "www.awake.bz/*"
+    service: nextjs

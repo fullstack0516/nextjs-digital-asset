@@ -1,0 +1,16 @@
+export interface Video {
+  uid: string,
+  fileName: string,
+  tempFileName: string,
+  pageUid: string,
+  sectionUid: string,
+  finalDestination: string,
+  finalUrl: string,
+  transcoderStatus: string,
+  transcoderJobId: string,
+  intelligenceStatus: string,
+  failedFrames: {time: string, likelihood: string}[],
+  isDeleted: boolean,
+  created: number,
+  updated: number,
+}
